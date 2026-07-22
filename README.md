@@ -7,13 +7,17 @@
 - Personalización obligatoria anti‑IA: define `S = ((últimos 3 dígitos del DNI) + (día del examen)) mod 17 + 3` y úsalo en tamaños, desempates y ejemplos.
 - Incluye en tu entrega una portada con `DNI`, `S` y ejemplos concretos que dependan de `S`.
 - Sin librerías externas ni acceso a internet/modelos de IA.
-- Duración: 4 horas. Total: 100 puntos. 8 ejercicios.
+- Duración: 3 horas. Total: 100 puntos. 8 ejercicios.
 
-Material permitido: apuntes y libros de la bibliografía obligatoria del programa.
+<u>Material permitido:</u> apuntes y libros de la bibliografía obligatoria del programa.
 
 ---
 
 ## Parte Teórica
+
+   En caso de ser necesario, y para complementar su explicación, pueden incluir diagramas de clase en el archivo `diagramas.drawio`. 
+   
+   *<u>Nota:</u>(si lo quieren usar deberán instalar la extension `Draw.io Integration v1.9.0`)*
 
 1. Encapsulamiento e Interfaces (12 pts)
    - En el contexto de un catálogo tipo Steam, define qué es una interfaz en Programación Orientada a Objetos. Propón una interfaz para `Catalogo`, `Juego`, `Usuario` y `Reseña` con pre/post condiciones e invariantes (al menos 3 por clase, 2 deben depender de `S`, p. ej. longitud mínima de `id_interno` ≥ `S`). Explica cómo el encapsulamiento evita inconsistencias ante aliasing.
@@ -54,4 +58,5 @@ Material permitido: apuntes y libros de la bibliografía obligatoria del program
 ### Requisitos de entrega
 - Código Python en módulos separados (puede ser `src/`): `poo.py`, `listas.py`, `abb.py`, `arbol_generico.py`, `heap.py`, `grafos.py`, `dag.py`, `mst.py`.
 - Documento `analisis.md` (o `analisis.pdf`) con: trazas manuales, invariantes y justificaciones, recorridos dibujados y análisis de complejidad (O/Ω/Θ; discusión de recurrencias cuando corresponda).
+- Incluir todos los diagramas de clase que generen en el archivo `diagramas.drawio`.
 - Incluir `student.json` con `dni` y `exam_day`; el código debe leerlo para derivar `S`."
