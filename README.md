@@ -1,4 +1,4 @@
-# Estructuras de Datos. FINAL – FEBRERO – 18 / 02 / 2026
+# Estructuras de Datos. FINAL – JULIO – 22 / 07 / 2026
 
 ### Tema Central: Sistema catálogo de videojuegos (estilo Steam)
 
