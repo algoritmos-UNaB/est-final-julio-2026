@@ -1,6 +1,6 @@
 # Estructuras de Datos. FINAL – JULIO – 22 / 07 / 2026
 
-### Tema Central: Sistema catálogo de videojuegos (estilo Steam)
+###   Tema Central: Sistema catálogo de videojuegos (estilo Steam)
 
 ### Instrucciones Generales
 - Responde todas las preguntas utilizando exclusivamente Python para las partes prácticas.
